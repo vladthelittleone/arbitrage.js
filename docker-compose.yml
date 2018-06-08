@@ -1,0 +1,21 @@
+version: "2"
+services:
+  arbitrage:
+    environment:
+      - MONGO_URI=mongodb://mongo:27017/arbitrage
+    container_name: arbitrage
+    restart: always
+    build: .
+    ports:
+      - "4000:4000"
+    links:
+      - mongo
+    depends_on:
+      - mongo
+  mongo:
+    container_name: mongo
+    image: mongo
+    volumes:
+      - ./mongo:/data/db
+    ports:
+      - "27017:27017"

@@ -1,0 +1,201 @@
+{
+  "database": {
+    "uri": "mongodb://localhost/arbitrage",
+    "options": {
+      "keepAlive": 1
+    },
+    "debug": false
+  },
+  "server": {
+    "port": 5000,
+    "timeoutSeconds": 3
+  },
+  "telegram": {
+    "key": "your telegram bot key"
+  },
+  "arbitrage": {
+    "statistics": false,
+    "debug": true,
+    "spreadEntry": 0.008,
+    "spreadTarget": 0.005,
+    "orderBookFactor": 3,
+    "targetExposure": 40,
+    "liquidityDelta": 0.01,
+    "trailingLimit": 0.0008,
+    "trailingCount": 1,
+    "pairs": [
+      {
+        "leg1": "BTC",
+        "leg2": "USD"
+      },
+      {
+        "leg1": "ETH",
+        "leg2": "USD"
+      },
+      {
+        "leg1": "XRP",
+        "leg2": "USD"
+      },
+      {
+        "leg1": "BCH",
+        "leg2": "USD"
+      },
+      {
+        "leg1": "DASH",
+        "leg2": "USD"
+      },
+      {
+        "leg1": "ZEC",
+        "leg2": "USD"
+      },
+      {
+        "leg1": "XMR",
+        "leg2": "USD"
+      },
+      {
+        "leg1": "BTG",
+        "leg2": "USD"
+      },
+      {
+        "leg1": "NEO",
+        "leg2": "USD"
+      },
+      {
+        "leg1": "ZCL",
+        "leg2": "USD"
+      },
+      {
+        "leg1": "AID",
+        "leg2": "USD"
+      },
+      {
+        "leg1": "AVT",
+        "leg2": "USD"
+      },
+      {
+        "leg1": "BAT",
+        "leg2": "USD"
+      },
+      {
+        "leg1": "DATA",
+        "leg2": "USD"
+      },
+      {
+        "leg1": "EDO",
+        "leg2": "USD"
+      },
+      {
+        "leg1": "ELF",
+        "leg2": "USD"
+      },
+      {
+        "leg1": "EOS",
+        "leg2": "USD"
+      },
+      {
+        "leg1": "ETC",
+        "leg2": "USD"
+      },
+      {
+        "leg1": "ETP",
+        "leg2": "USD"
+      },
+      {
+        "leg1": "FUN",
+        "leg2": "USD"
+      },
+      {
+        "leg1": "GNT",
+        "leg2": "USD"
+      },
+      {
+        "leg1": "IOTA",
+        "leg2": "USD"
+      },
+      {
+        "leg1": "MNA",
+        "leg2": "USD"
+      },
+      {
+        "leg1": "MNA",
+        "leg2": "USD"
+      },
+      {
+        "leg1": "LTC",
+        "leg2": "USD"
+      },
+      {
+        "leg1": "OMG",
+        "leg2": "USD"
+      },
+      {
+        "leg1": "QSH",
+        "leg2": "USD"
+      },
+      {
+        "leg1": "QTUM",
+        "leg2": "USD"
+      },
+      {
+        "leg1": "RCN",
+        "leg2": "USD"
+      },
+      {
+        "leg1": "REP",
+        "leg2": "USD"
+      },
+      {
+        "leg1": "RLC",
+        "leg2": "USD"
+      },
+      {
+        "leg1": "SAN",
+        "leg2": "USD"
+      },
+      {
+        "leg1": "SPK",
+        "leg2": "USD"
+      },
+      {
+        "leg1": "SNG",
+        "leg2": "USD"
+      },
+      {
+        "leg1": "SNT",
+        "leg2": "USD"
+      },
+      {
+        "leg1": "TNB",
+        "leg2": "USD"
+      },
+      {
+        "leg1": "TRX",
+        "leg2": "USD"
+      },
+      {
+        "leg1": "YYW",
+        "leg2": "USD"
+      },
+      {
+        "leg1": "ZRX",
+        "leg2": "USD"
+      }
+    ],
+    "exchanges": {
+      "okcoinusd": {
+        "apiKey": "your api key",
+        "secret": "your secret"
+      },
+      "bitfinex": {
+        "apiKey": "your api key",
+        "secret": "your secret",
+        "isShortSupported": true
+      },
+      "kraken": {
+        "apiKey": "your api key",
+        "secret": "your secret",
+        "isShortSupported": true
+      }
+    }
+  }
+}

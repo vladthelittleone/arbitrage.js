@@ -1,0 +1,25 @@
+{
+  "name": "arbitrage.js",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "NODE_ENV=production NODE_PATH=. node bin/www"
+  },
+  "dependencies": {
+    "body-parser": "~1.13.2",
+    "ccxt": "^1.10.1069",
+    "connect-mongo": "^2.0.0",
+    "cookie-parser": "~1.3.5",
+    "debug": "~2.2.0",
+    "express": "~4.13.1",
+    "http-status-codes": "^1.3.0",
+    "lodash": "^4.17.4",
+    "moment": "^2.19.1",
+    "mongoose": "^5.0.1",
+    "morgan": "~1.6.1",
+    "nconf": "^0.10.0",
+    "serve-favicon": "~2.3.0",
+    "telegraf": "^3.17.3",
+    "winston": "^2.4.0"
+  }
+}
